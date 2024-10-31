@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kino.MainPage">
+   <FlexLayout>
+      <VerticalStackLayout>
+        <HorizontalStackLayout BackgroundColor="Gray" HeightRequest="83" WidthRequest="1150">
+            <Image
+                    Source="logo1.png"
+                    HeightRequest="150"
+                    WidthRequest="150" />
+
+            <VerticalStackLayout>
+                <Label WidthRequest="200" HeightRequest="25" Margin="10" TextTransform="Uppercase" FontAttributes="Bold" Text="AKADEMIA PANA KLEKSA"></Label>
+                <Label WidthRequest="200" HeightRequest="50" FontAttributes="Italic" Text="familijny/przygodowy/fantasy"></Label>
+            </VerticalStackLayout>
+
+            <Label WidthRequest="100" HeightRequest="35" Margin="40" BackgroundColor="Red" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Small" Text="PREMIERA"></Label>
+            <Label WidthRequest="85" HeightRequest="30" Margin="40" BackgroundColor="LightGray" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="15:30"></Label>
+            <Label WidthRequest="85" HeightRequest="30" BackgroundColor="LightGray" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="16:15"></Label>
+            <Button WidthRequest="125" HeightRequest="35" Margin="40" BackgroundColor="Green" Clicked="OnCounterClicked" Text="Kup Bilet"></Button>
+            <Button WidthRequest="125" HeightRequest="35" BackgroundColor="MediumPurple" Clicked="OnCounterClicked2" Text="Zwróć Bilet"></Button>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout BackgroundColor="Gray" HeightRequest="83" WidthRequest="1150">
+            <Image
+                Source="logo2.png"
+                HeightRequest="150"
+                WidthRequest="150" />
+
+            <VerticalStackLayout>
+                <Label WidthRequest="200" HeightRequest="25" Margin="10" TextTransform="Uppercase" FontAttributes="Bold" Text="AKADEMIA PANA KLEKSA"></Label>
+                <Label WidthRequest="200" HeightRequest="50" FontAttributes="Italic" Text="familijny/przygodowy/fantasy"></Label>
+            </VerticalStackLayout>
+
+            <Label WidthRequest="100" HeightRequest="35" Margin="40" BackgroundColor="Red" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Small" Text="PREMIERA"></Label>
+            <Label WidthRequest="85" HeightRequest="30" Margin="40" BackgroundColor="LightGray" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="15:30"></Label>
+            <Label WidthRequest="85" HeightRequest="30" BackgroundColor="LightGray" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="16:15"></Label>
+            <Button WidthRequest="125" HeightRequest="35" Margin="40" BackgroundColor="Green" Clicked="OnCounterClicked" Text="Kup Bilet"></Button>
+            <Button WidthRequest="125" HeightRequest="35" BackgroundColor="MediumPurple" Clicked="OnCounterClicked2" Text="Zwróć Bilet"></Button>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout BackgroundColor="Gray" HeightRequest="83" WidthRequest="1150">
+            <Image
+                Source="logo3.png"
+                HeightRequest="150"
+                WidthRequest="150" />
+
+            <VerticalStackLayout>
+                <Label WidthRequest="200" HeightRequest="25" Margin="10" TextTransform="Uppercase" FontAttributes="Bold" Text="AKADEMIA PANA KLEKSA"></Label>
+                <Label WidthRequest="200" HeightRequest="50" FontAttributes="Italic" Text="familijny/przygodowy/fantasy"></Label>
+            </VerticalStackLayout>
+
+            <Label WidthRequest="100" HeightRequest="35" Margin="40" BackgroundColor="Red" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Small" Text="PREMIERA"></Label>
+            <Label WidthRequest="85" HeightRequest="30" Margin="40" BackgroundColor="LightGray" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="15:30"></Label>
+            <Label WidthRequest="85" HeightRequest="30" BackgroundColor="LightGray" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="16:15"></Label>
+            <Button WidthRequest="125" HeightRequest="35" Margin="40" BackgroundColor="Green" Clicked="OnCounterClicked" Text="Kup Bilet"></Button>
+            <Button WidthRequest="125" HeightRequest="35" BackgroundColor="MediumPurple" Clicked="OnCounterClicked2" Text="Zwróć Bilet"></Button>
+            </HorizontalStackLayout>
+
+        <HorizontalStackLayout BackgroundColor="Gray" HeightRequest="83" WidthRequest="1150">
+            <Image
+                Source="logo4.png"
+                HeightRequest="150"
+                WidthRequest="150" />
+
+            <VerticalStackLayout>
+                <Label WidthRequest="200" HeightRequest="25" Margin="10" TextTransform="Uppercase" FontAttributes="Bold" Text="AKADEMIA PANA KLEKSA"></Label>
+                <Label WidthRequest="200" HeightRequest="50" FontAttributes="Italic" Text="familijny/przygodowy/fantasy"></Label>
+            </VerticalStackLayout>
+
+            <Label WidthRequest="100" HeightRequest="35" Margin="40" BackgroundColor="Red" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Small" Text="PREMIERA"></Label>
+            <Label WidthRequest="85" HeightRequest="30" Margin="40" BackgroundColor="LightGray" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="15:30"></Label>
+            <Label WidthRequest="85" HeightRequest="30" BackgroundColor="LightGray" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="16:15"></Label>
+            <Button WidthRequest="125" HeightRequest="35" Margin="40" BackgroundColor="Green" Clicked="OnCounterClicked" Text="Kup Bilet"></Button>
+            <Button WidthRequest="125" HeightRequest="35" BackgroundColor="MediumPurple" Clicked="OnCounterClicked2" Text="Zwróć Bilet"></Button>
+            </HorizontalStackLayout>
+      </VerticalStackLayout>
+        <Label x:Name="Zakup" WidthRequest="125" HeightRequest="35" BackgroundColor="MidnightBlue" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="Koszyk"></Label>
+
+    </FlexLayout>
+
+</ContentPage>
